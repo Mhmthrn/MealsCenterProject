@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Meals Center Presentation  Test">
+
+    <test name="Demonstration Test">
+        <groups>
+            <run>
+                <include name="demo"/>
+
+            </run>
+        </groups>
+
+        <packages>
+            <package name="tests.*"></package>
+
+        </packages>
+    </test>
+
+
+
+</suite>
